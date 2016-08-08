@@ -22,7 +22,7 @@ gulp.task('clean', function() {
 gulp.task('src-js', function () {
 	return gulp.src("./src/js/**/*.js")
 		.pipe(concat("main.js"))
-		//.pipe(uglify())
+		.pipe(uglify())
 		.pipe(rename({ suffix: '.min'}))
 		.pipe(gulp.dest("./js"))
 });
