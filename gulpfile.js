@@ -20,8 +20,10 @@ gulp.task('clean', function() {
 
 // bundle js app files together into single file
 gulp.task('src-js', function () {
-	return gulp.src('./src/js/**/*.js')
-	.pipe(concat('main.js'))
+	return gulp.src([
+		'./src/js/main.js',
+		'./src/js/background.js'
+	])
 	.pipe(uglify())
 	.pipe(rename({ suffix: '.min'}))
 	.pipe(gulp.dest('./build/js'))
