@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "NewTab Sync Notes",
   "version": "1.0",
-  "description": "This extension is a light-weight notes manager that opens up when a new tab is created. The content will be synchronised across multiple browser instances.",
+  "description": "This extension is a notes manager that opens up in a new tab. The content is synchronized across multiple browser instances.",
   "icons": {
     "128": "icons/icon128.png",
     "16": "icons/icon16.png",

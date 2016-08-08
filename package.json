@@ -2,6 +2,7 @@
   "name": "chrome-newtab-sync-notes",
   "version": "1.0.0",
   "main": "gulpfile.js",
+  "description": "This extension is a notes manager that opens up in a new tab. The content is synchronized across multiple browser instances.",
   "dependencies": {
     "gulp-concat": "^2.6.0",
     "gulp-uglify": "^2.0.0",
