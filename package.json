@@ -1,0 +1,24 @@
+{
+  "name": "chrome-newtab-sync-notes",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-rename": "^1.2.2"
+  },
+  "devDependencies": {
+    "font-awesome": "^4.6.3",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.0.12",
+    "jquery": "^3.1.0",
+    "medium-editor": "^5.21.0",
+    "run-sequence": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rudi Olckers",
+  "license": "MIT"
+}
