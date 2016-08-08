@@ -19,8 +19,8 @@ function saveStorage(html) {
 function getStorage(cb) {
 	var key = 'editorHTML1';
 	chrome.storage.sync.get(key, function (obj) {
-		var value = obj.editorHTML1;
-		if (obj.editorHTML1 != null) {
+		var value = '';
+		if (typeof obj.editorHTML1 != 'undefined') {
 			value = obj.editorHTML1;
 		}
 		cb(value);
